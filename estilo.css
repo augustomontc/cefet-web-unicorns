@@ -57,33 +57,21 @@ p {
 	font-family: "Times New Roman", Times, serif;
 }
 
-#musica {
-	margin: 0px;
+#musica h2, #musica p{
+	margin-left: 12px;
 }
 
-#musica h2 {
-	padding-left: 12px;
-}
-
-#musica p {
-	padding-left: 46px;
-}
-
-#musica p:nth-child(even) {
-	padding-left: 12px;
+#musica>p:nth-child(odd) {
+	padding-left: 34px;
 }
 
 #musica .destacado {
 	margin-left: 0px;
 	padding-left: 0px;
 	color: #004a79;
-    background: #c4caf3;	
-}
-
-#musica .destacado p {
-	padding-left: 12px;
+	background: #c4caf3;	
 }
 
 #musica .destacado p:nth-child(even) {
-	padding-left: 46px;
+	padding-left: 34px;
 }
